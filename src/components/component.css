@@ -1,0 +1,119 @@
+.btn-link {
+  background-color: rgb(79, 28, 182);
+  margin: 2px;
+  color: white;
+  text-decoration: none;
+}
+
+.back-color {
+  height: 92.05vh;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(101, 62, 177, 1),
+    rgb(13, 9, 71),
+    rgba(15, 22, 90, 1),
+    rgba(48, 38, 126, 1)
+  );
+}
+
+.table {
+  width: 80%;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.2);
+  color: white;
+  border: 1px solid white;
+}
+
+h3 {
+  color: white;
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.table-striped > tbody > tr:nth-of-type(2n + 1) > * {
+  color: white;
+  border-bottom: 1px solid wheat;
+}
+
+.table-striped > tbody > tr:last-child > * {
+  border: none;
+}
+
+.tab-parent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+/*NAVBAR------------*/
+
+.navbaar {
+  display: flex;
+  height: 60px;
+  padding-left: 2rem;
+  align-items: center;
+  background-color: rgb(34, 14, 102);
+  color: white;
+}
+
+.navbar-brand {
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.nav-linkss-parent {
+  text-decoration: none;
+}
+
+.nav-linkss {
+  vertical-align: middle;
+  color: white;
+  text-decoration: none;
+  padding: 0.4rem;
+  margin-top: 10px;
+  margin-left: 40px;
+  background-color: rgb(79, 28, 182);
+  border-radius: 0.5rem;
+}
+@media screen and (max-width: 992px) {
+  .nav-linkss {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    text-underline-offset: none;
+  }
+}
+
+.nav-linkss:hover,
+.btn-link:hover,
+.btn-primary:hover {
+  color: white;
+  background-color: rgb(16, 26, 121);
+}
+
+/*CREATE PAGE_----------*/
+
+form {
+  width: 80%;
+}
+
+.form-decoration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+label {
+  color: white;
+}
+
+.btn-primary {
+  margin-top: 10px;
+  background-color: rgb(79, 28, 182);
+  border: none;
+}
+
+.btn-secondary {
+  margin-top: -10px;
+}
